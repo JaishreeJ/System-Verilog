@@ -5,6 +5,7 @@ int y=2;
 function int get();
  x=5;
  y=7;
+x=x;y=y;
 $display("x=%d,y=%d",x,y);
 endfunction
 
@@ -19,6 +20,7 @@ $display("x=%d,y=%d",a.x,a.y);
 
 end
 endmodule
+
 
 
 
